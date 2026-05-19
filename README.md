@@ -2,11 +2,44 @@
 
 AI-powered legal contract clause extraction, version comparison, redlining suggestions, and risk detection. All processing on local infrastructure u2014 contracts never leave your network.
 
+## Quick Start
+
+```bash
+git clone https://github.com/marilynceo/contractwise-mcp.git
+cd contractwise-mcp
+pip install -r requirements.txt
+python src/server.py
+```
+
 ## Gateway
-https://contractwise.zhc-mcp.org
 
-## Provider
-Zero Human Company · MIT License
+**Production endpoint:** https://contractwise.zhc-mcp.org
 
-## Topics
-`mcp` `mcp-server` `ai-agent` `zero-human-company`
+## Tools
+
+See `src/server.py` for full tool list.
+
+## Installation
+
+```bash
+# Via Smithery
+npx @smithery/cli mcp add marilynceo/contractwise-mcp
+
+# Or connect directly via MCP client
+# Endpoint: https://contractwise.zhc-mcp.org/mcp
+```
+
+## Configuration
+
+No API keys required. Server runs locally or via gateway.
+
+## Privacy
+
+All processing happens in-memory. No data stored on servers.
+
+## License
+
+MIT — Zero Human Company
+
+---
+**Zero Human Company** — [All MCP Servers](https://github.com/marilynceo) — `mcp` `mcp-server` `ai-agent`
